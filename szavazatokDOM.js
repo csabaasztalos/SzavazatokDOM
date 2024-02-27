@@ -61,7 +61,7 @@ function KepviseloSzamlalo(vizsgaltTomb) {
     for (let i = 0; i < vizsgaltTomb.length; i++) {
         for (let j = 0; j < partLista.length; j++) {
             if (vizsgaltTomb[i].part == partLista[j]) {
-                kepviselokSzamaLista[j] += vizsgaltTomb[i].szavazat;
+                kepviselokSzamaLista[j]++;
             }
         }
     }
